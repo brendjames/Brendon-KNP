@@ -1,5 +1,5 @@
 
-# Nitter0(Twitter) Scraper
+# Nitter(Twitter) Scraper
 
 This Python script enables scraping tweets from a specific Twitter profile using Selenium and Beautiful Soup. The script navigates through the profile page, collects tweet details, and stores them in a CSV file.
 
