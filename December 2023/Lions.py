@@ -10,4 +10,4 @@ keywords = ["Lion", "Lions"]
 filtered_data = data[data["Animal Type and Number"].str.contains('|'.join(keywords), na=False)]
 
 # Save the filtered DataFrame to a new CSV file
-filtered_data.to_csv("E:\BJ\KNP\Brendon-KNP\December 2023\Lions.csv", index=False)
+filtered_data.to_csv("E:\BJ\KNP\Brendon-KNP\December 2023\Data\Data Findings\Lions.csv", index=False)

@@ -13,4 +13,4 @@ filtered_data = data[data["Tinged By"].str.contains('|'.join(keywords), na=False
 print(f"The number of rows containing the keywords is: {len(filtered_data)}")
 
 # Save the filtered DataFrame to a new CSV file
-filtered_data.to_csv("E:\BJ\KNP\Brendon-KNP\December 2023\Green Mambas.csv", index=False)
+filtered_data.to_csv("E:\BJ\KNP\Brendon-KNP\December 2023\Data\Data Findings\Green Mambas.csv", index=False)
