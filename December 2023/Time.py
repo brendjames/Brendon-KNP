@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the cleaned CSV file into a DataFrame
-df = pd.read_csv('E:\BJ\KNP\Brendon-KNP\December 2023\cleaned_data_dec2023.csv')
+df = pd.read_csv('E:\BJ\KNP\Brendon-KNP\December 2023\Data\Data Findings\cleaned_data_dec2023.csv')
 
 # Parse the 'Title' column as datetime
 df['Title'] = pd.to_datetime(df['Title'], format='%b %d, %Y · %I:%M %p %Z', errors='coerce')

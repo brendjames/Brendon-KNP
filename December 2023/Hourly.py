@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the CSV file
-data = pd.read_csv("E:/BJ/KNP/Brendon-KNP/December 2023/cleaned_data_dec2023.csv")
+data = pd.read_csv("E:\BJ\KNP\Brendon-KNP\December 2023\Data\Data Findings\cleaned_data_dec2023.csv")
 
 # Convert the "Time" column to datetime
 data["Time"] = pd.to_datetime(data["Time"], errors='coerce')

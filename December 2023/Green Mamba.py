@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file into a DataFrame
-data = pd.read_csv("E:\BJ\KNP\Brendon-KNP\December 2023\cleaned_data_dec2023.csv")
+data = pd.read_csv("E:\BJ\KNP\Brendon-KNP\December 2023\Data\Data Findings\cleaned_data_dec2023.csv")
 
 # Define the keywords to look for
 keywords = ["Safari", "Safaris", "Tours"]
