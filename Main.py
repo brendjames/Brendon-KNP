@@ -13,7 +13,7 @@ def scrape_tweets():
         driver.get('https://nitter.net/LatestKruger')
         time.sleep(10)
 
-        with open('Jan08_2024.csv', 'a', newline='', encoding='utf-8') as f:
+        with open('E:\BJ\KNP\Brendon-KNP\Januaray 2024\Jan08_2024.csv', 'a', newline='', encoding='utf-8') as f:
             csv_writer = csv.writer(f)
             csv_writer.writerow(['ID', 'Time', 'Animal Type and Number', 'Location', 'Rating', 'Tinged By', 'Title', 'Tweet Date'])
 
