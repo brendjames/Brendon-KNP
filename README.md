@@ -1,3 +1,5 @@
+# NO LONGER WORKING DUE TO NITTER BEING TAKEN OFFLINE
+
 
 # Nitter(Twitter) Scraper
 
